@@ -1,0 +1,17 @@
+﻿<Window x:Class="UI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UI"
+        mc:Ignorable="d"
+        Loaded="Window_Loaded"
+        Title="MainWindow" Height="700" Width="1000">
+    <Grid>
+        <Label x:Name="TitleLabel" Content="Have I been Pwned?" Margin="0,47,0,0" VerticalAlignment="Top" Height="51" Width="380" FontSize="36" HorizontalAlignment="Center" FontWeight="Bold"/>
+        <Label Content="Enter your password:" HorizontalAlignment="Center" Margin="0,195,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <PasswordBox x:Name="PasswordBox" KeyDown="Password_Keydown" HorizontalAlignment="Center" Margin="0,242,0,0" VerticalAlignment="Top" Width="726" Height="40" FontSize="22" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+        <Button x:Name="CheckBtn" Click="CheckBtn_Click" Content="Check" HorizontalAlignment="Center" Margin="0,342,0,0" VerticalAlignment="Top" FontSize="22" BorderThickness="2,2,2,2" Cursor="Hand" Height="52" Width="138" FontWeight="Bold"/>
+        <TextBlock x:Name="resultText" TextWrapping="WrapWithOverflow" HorizontalAlignment="Center" Margin="0,399,0,0" VerticalAlignment="Top" FontSize="24" Width="916" Visibility="Visible" Height="251"/>
+    </Grid>
+</Window>

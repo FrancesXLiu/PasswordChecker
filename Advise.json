@@ -1,0 +1,4 @@
+{
+   "hit": "Your password has been pwned {0} time(s)! Your password and its variants have been exposed to malicious individuals. They can now easily compromise your login and gain access to your account and sensitive information. To protect yourself, it's crucial to change your password on all affected accounts and enable Two-Factor Authentication whenever possible. If you have any questions or need assistance, feel free to reach out to Paul for a discussion.",
+   "safe": "Your password is NOT exposed in any recorded data leaks."
+}
